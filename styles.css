@@ -11,31 +11,32 @@ body {
     display: flex;
     flex-direction: column;
     background: rgba(31, 41, 55, 1);
-    min-height: 500px;
+    padding: 0 0 50px 0;
 }
 
 .header1, .header2 {
     display: flex;
     color: rgba(249, 250, 248, 1);
+    flex: 1;
+    gap: 15px;
 }
 
 
 .header1 {
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-shadow: 3px 3px black;
-    gap: 15px;
-    column-gap: 325px;
     margin-bottom: 15px;
 }
 
 .header2 {
     justify-content: space-evenly;
+    padding: 10px;
 }
 
 .text {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 500px;
     justify-content: center;
 }
 
